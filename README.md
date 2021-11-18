@@ -7,15 +7,11 @@ All commands are for a Linux system.
 Characters that follow the symbol # are the comments.
 Skip the stage 1 if you want to try out the application.
 
-#########################
-#########################
-Stage 1. Analytics Engine
-#########################
-#########################
 
-##########################################
-Real Hadoop System. 16 GB RAM is required.
-##########################################
+# Stage 1. Analytics Engine
+
+
+## Real Hadoop System. 16 GB RAM is required
 
 ### Get Yelp Data
 - Download data and put it into the folder data_yelp.
@@ -37,9 +33,7 @@ Real Hadoop System. 16 GB RAM is required.
 
 3. Copy the analyzed file from CDH5 to your system.
 
-##########################################################
-Physical Cores of the CPU are used as nodes of the cluster.
-##########################################################
+## Physical Cores of the CPU are used as nodes of the cluster
 
 0. Install JAVA.
 1. Download Spark.
@@ -50,11 +44,9 @@ Physical Cores of the CPU are used as nodes of the cluster.
 6. Copy and paste commands from the file Analysis.scala one by one if necessary. Please provide appropriate paths for the required files.
 7. The analyzed file will be saved as soon as the last command will be executed.
 
-####################
-####################
-Stage 2. Application
-####################
-####################
+
+# Stage 2. Application
+
 
 0.Installation
 	0.1. Install MongoDB.
