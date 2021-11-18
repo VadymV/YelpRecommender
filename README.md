@@ -8,7 +8,7 @@ See 'paper.pdf' for more information. Sorry only in German. Done in collaboratio
 # How?
 - Use Latent Dirichlet Allocation (LDA) to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
 - Use our proposed metric for finding the best business based on a distance <em>d</em> in km, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: <img src="evaluation_metric.png" alt="evaluation metric" width="400"/> 
-- Distrance function (the rightmose term) has the following behaviour: <img src="distance_function.png" alt="distance function" width="600"/>
+- Distrance function (the rightmose term in the upper equation) has the following behaviour: <img src="distance_function.png" alt="distance function" width="600"/>
 
 # Short Intro:
 - The Yelp dataset (https://www.yelp.com/dataset/documentation/main) contains information about businesses and reviews. The json files "business.json" and "review.json" whould be placed into the folder "data_yelp"
