@@ -1,15 +1,14 @@
 One of my first ML Projects. It was done in 2016.
 It is also very peculiar, because the use of a local hadoop cluster was a requirement.
-See 'paper.pdf' for more information. Sorry only in German.
+See 'paper.pdf' for more information. Sorry only in German. Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev.
 
 # Idea:
 - Recommend the best business to a user (restaurant, health accomodation or shopping location).
 
 # How?
 - Use Latent Dirichlet Allocation to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
-- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![image](evaluation_metric.png)
-
-- 
+- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![evaluation metric](evaluation_metric.png)
+- Distrance metric have the following behaviour: ![distance metric](distance_metric.png)
 
 # Short Intro:
 -The Yelp dataset contains information about businesses and reviews
