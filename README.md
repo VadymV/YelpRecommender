@@ -21,17 +21,17 @@ Skip the stage 1 if you want to try out the application.
 	- Command: docker pull cloudera/quickstart:latest
 	- Command: docker images #note the hash of the image and substitute it in 1.4.
 	- Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
-	1.5. Browse hue at localhost:8888. Of course, in your browser.
-		1.5.1. Open File Browser.
-		1.5.2. Upload file review.json into the directory "cloudera".
-		1.5.3. Upload file business.json into the directory "cloudera".
-		1.5.4. Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
+	- Browse hue at localhost:8888. Of course, in your browser.
+		- Open File Browser.
+		- Upload file review.json into the directory "cloudera".
+		- Upload file business.json into the directory "cloudera".
+		- Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
 
-2. Analysis
-	2.1. Run the command: spark-shell
-	2.2. Copy and paste commands from the file Analysis.scala one by one if necessary.
+### Analysis
+	- Run the command: spark-shell
+	- Copy and paste commands from the file Analysis.scala one by one if necessary.
 
-3. Copy the analyzed file from CDH5 to your system.
+### Copy the analyzed file from CDH5 to your system.
 
 ## Physical Cores of the CPU are used as nodes of the cluster
 
