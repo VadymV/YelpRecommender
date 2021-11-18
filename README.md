@@ -7,7 +7,9 @@ See 'paper.pdf' for more information. Sorry only in German.
 
 # How?
 - Use Latent Dirichlet Allocation to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
-- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![image](evaluation_metric.png)
+
+- 
 
 # Short Intro:
 -The Yelp dataset contains information about businesses and reviews
