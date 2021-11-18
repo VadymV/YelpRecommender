@@ -14,7 +14,7 @@ Skip the stage 1 if you want to try out the application.
 ## Real Hadoop System. 16 GB RAM is required
 
 ### Get Yelp Data
-	0.1. Download data and put it into the folder data_yelp
+	0.1. Download data (https://www.yelp.com/dataset/documentation/main) and put it into the folder data_yelp
 
 ### Setup
 	1.1. Install docker: https://www.docker.com/
@@ -28,8 +28,8 @@ Skip the stage 1 if you want to try out the application.
 		1.5.4. Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
 
 ### Analysis
-	- Run the command: spark-shell
-	- Copy and paste commands from the file Analysis.scala one by one if necessary.
+	2.1. Run the command: spark-shell
+	2.2. Copy and paste commands from the file Analysis.scala one by one if necessary
 
 ### Copy the analyzed file from CDH5 to your system.
 
