@@ -17,14 +17,14 @@ Stage 1. Analytics Engine
 Real Hadoop System. 16 GB RAM is required.
 ##########################################
 
-0. Get Yelp Data.
-	0.1. Folder data_yelp. 
+### Get Yelp Data
+- Download data and put it into the folder data_yelp.
 
-1. Setup.
-	1.1. Install docker: https://www.docker.com/
-	1.2. Command: docker pull cloudera/quickstart:latest
-	1.3. Command: docker images #note the hash of the image and substitute it in 1.4.
-	1.4. Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
+### Setup
+	- Install docker: https://www.docker.com/
+	- Command: docker pull cloudera/quickstart:latest
+	- Command: docker images #note the hash of the image and substitute it in 1.4.
+	- Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
 	1.5. Browse hue at localhost:8888. Of course, in your browser.
 		1.5.1. Open File Browser.
 		1.5.2. Upload file review.json into the directory "cloudera".
