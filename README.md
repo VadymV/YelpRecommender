@@ -7,8 +7,8 @@ See 'paper.pdf' for more information. Sorry only in German. Done in collaboratio
 
 # How?
 - Use Latent Dirichlet Allocation to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
-- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![evaluation metric](evaluation_metric.png =x250)
-- Distrance function (the rightmose term) has the following behaviour: ![distance function](distance_function.png =x250)
+- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![evaluation metric](evaluation_metric.png)
+- Distrance function (the rightmose term) has the following behaviour: ![distance function](distance_function.png)
 
 # Short Intro:
 -The Yelp dataset contains information about businesses and reviews
