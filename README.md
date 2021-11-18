@@ -7,20 +7,19 @@ See 'paper.pdf' for more information. Sorry only in German.
 
 # How?
 - Use Latent Dirichlet Allocation to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
-- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in
+- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability <em>f</em> of a business belonging to a category a user is interested in: ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 # Short Intro:
-- the Yelp dataset contains information about businesses and reviews
+-The Yelp dataset contains information about businesses and reviews
 - 
 
-Follow the following instructions on how to run the recommendation system from scratch.
-All commands are for a Linux system.
+- Follow the following instructions on how to run the recommendation system from scratch. All commands are for a Linux system.
 
 
 # Stage 1. Analytics Engine
 
 
-## Real Hadoop System. 16 GB RAM is required
+## Real Hadoop System.
 
 ### Get Yelp Data
 	0.1. Download data (https://www.yelp.com/dataset/documentation/main) and put it into the folder data_yelp
