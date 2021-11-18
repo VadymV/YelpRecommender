@@ -14,18 +14,18 @@ Skip the stage 1 if you want to try out the application.
 ## Real Hadoop System. 16 GB RAM is required
 
 ### Get Yelp Data
-- Download data and put it into the folder data_yelp.
+	0.1. Download data and put it into the folder data_yelp
 
 ### Setup
-	- Install docker: https://www.docker.com/
-	- Command: docker pull cloudera/quickstart:latest
-	- Command: docker images #note the hash of the image and substitute it in 1.4
-	- Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
-	- Browse hue at localhost:8888. Of course, in your browser
-		- Open File Browser
-		- Upload file review.json into the directory "cloudera"
-		- Upload file business.json into the directory "cloudera"
-		- Upload files located in the folder stopwords, the DVD, into the directory "cloudera"
+	1.1. Install docker: https://www.docker.com/
+	1.2. Command: docker pull cloudera/quickstart:latest
+	1.3. Command: docker images #note the hash of the image and substitute it in 1.4.
+	1.4. Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
+	1.5. Browse hue at localhost:8888. Of course, in your browser.
+		1.5.1. Open File Browser.
+		1.5.2. Upload file review.json into the directory "cloudera".
+		1.5.3. Upload file business.json into the directory "cloudera".
+		1.5.4. Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
 
 ### Analysis
 	- Run the command: spark-shell
