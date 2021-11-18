@@ -14,7 +14,6 @@ See 'paper.pdf' for more information. Sorry only in German. Done in collaboratio
 - The Yelp dataset (https://www.yelp.com/dataset/documentation/main) contains information about businesses and reviews. The json files "business.json" and "review.json" whould be placed into the folder "data_yelp"
 - The file "Analysis.scala" runs LDA and saves the information about bsiness and their probability of belongign to a specific category/topic. These data should be placed into the folder "analyzed_data"
 - The folder "stopwords" contains the stopwords 
-
 - Follow the following instructions on how to run the recommendation system from scratch. All commands are for a Linux system.
 
 
