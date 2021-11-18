@@ -1,4 +1,6 @@
-One of my first ML Projects. It was done in 2016. 
+One of my first ML Projects. It was done in 2016.
+It is also very peculiar, because the use of a local hadoop cluster was a requirement.
+See 'paper.pdf' for more information. Sorry only in German.
 
 Instructions how to run the recommendation system from scratch.
 All commands are for a Linux system.
