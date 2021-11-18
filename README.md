@@ -2,10 +2,19 @@ One of my first ML Projects. It was done in 2016.
 It is also very peculiar, because the use of a local hadoop cluster was a requirement.
 See 'paper.pdf' for more information. Sorry only in German.
 
-Instructions how to run the recommendation system from scratch.
+# Idea:
+- recommend the best business to a user (restaurant, health accomodation or shopping location).
+
+# How?
+- Use Latent Direichlet Allocation to assign assign businesses based on reviews to a specific topic (e.g. Sea Food)
+- Use a novel metric for finding the best location based on a distance to that location, stars given by users for that location and the probability of belonging of that location to a category a user is interested in
+
+# Short Intro:
+- the Yelp dataset contains information about businesses and reviews
+- 
+
+Follow the following instructions on how to run the recommendation system from scratch.
 All commands are for a Linux system.
-Characters that follow the symbol # are the comments.
-Skip the stage 1 if you want to try out the application.
 
 
 # Stage 1. Analytics Engine
