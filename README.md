@@ -19,13 +19,13 @@ Skip the stage 1 if you want to try out the application.
 ### Setup
 	- Install docker: https://www.docker.com/
 	- Command: docker pull cloudera/quickstart:latest
-	- Command: docker images #note the hash of the image and substitute it in 1.4.
+	- Command: docker images #note the hash of the image and substitute it in 1.4
 	- Command: docker run --privileged=true --hostname=quickstart.cloudera -t -i -p 8888:8888 -p 80:80 cloudera/quickstart /usr/bin/docker-quickstart #if defaults are accepted.
-	- Browse hue at localhost:8888. Of course, in your browser.
-		- Open File Browser.
-		- Upload file review.json into the directory "cloudera".
-		- Upload file business.json into the directory "cloudera".
-		- Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
+	- Browse hue at localhost:8888. Of course, in your browser
+		- Open File Browser
+		- Upload file review.json into the directory "cloudera"
+		- Upload file business.json into the directory "cloudera"
+		- Upload files located in the folder stopwords, the DVD, into the directory "cloudera"
 
 ### Analysis
 	- Run the command: spark-shell
@@ -48,19 +48,19 @@ Skip the stage 1 if you want to try out the application.
 # Stage 2. Application
 
 
-0.Installation
+## Installation
 	0.1. Install MongoDB.
 	0.2. Create directory, command: sudo mkdir -p /var/lib/mongodb/data/db
 	0.2. Run MongoDB server, commad: sudo mongod --dbpath /var/lib/mongodb/data/db
 	0.3. Install Java 8.
 	0.4. Install Eclipse with Maven support.
 
-1. Setup
+## Setup
 	1.1. Command: mongoimport --db yelp --collection restaurants --drop --file "/pathToFile/restaurant.json". The analysed file from the stage 1.
 	1.1. Command: mongoimport --db yelp --collection shopping --drop --file "/pathToFile/shopping.json". The analysed file from the stage 1.
 	1.1. Command: mongoimport --db yelp --collection health --drop --file "/pathToFile/health.json". The analysed file from the stage 1.
 
-2. Running the application
+## Running the application
 	2.1. Extract "Anwendung.zip" and import the project "yelp".
 	2.2. Run as Java Application.
 	2.3. Follow the instructions.
