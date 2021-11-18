@@ -6,8 +6,8 @@ See 'paper.pdf' for more information. Sorry only in German.
 - Recommend the best business to a user (restaurant, health accomodation or shopping location).
 
 # How?
-- Use Latent Direchlet Allocation to assign assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
-- Use our proposed metric for finding the best business based on a distance, stars given by users and the probability of belonging of that business to a category a user is interested in
+- Use Latent Dirichlet Allocation to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
+- Use our proposed metric for finding the best business based on a distance <em>d</em>, stars <em>s</em> given by users and the probability of a business belonging to a category a user is interested in <em>f</em>
 
 # Short Intro:
 - the Yelp dataset contains information about businesses and reviews
