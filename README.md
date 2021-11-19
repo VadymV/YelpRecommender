@@ -1,12 +1,12 @@
 One of my first ML Projects. It was done in 2016.
-It is also very peculiar, because the use of a local hadoop cluster was a requirement.
-See 'paper.pdf' for more information. Sorry only in German. Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev.
+It is also a very peculiar project because the use of a local hadoop cluster was the requirement.
+See 'paper.pdf' for more information (sorry, only in German). Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev.
 
 # Idea:
-- Recommend the best business to a user (restaurant, health accomodation or shopping location).
+- Recommend the best business to a user (restaurant, health accommodation or shopping location).
 
 # How?
-- Use Latent Dirichlet Allocation (LDA) to assign businesses based on reviews to a specific topic/category (e.g. Sea Food)
+- Use Latent Dirichlet Allocation (LDA) to assign businesses, based on reviews, to a specific topic/category (e.g. Sea Food)
 - Use our proposed metric for finding the best business based on a distance <em>d</em> in km, stars <em>s</em> given by users and the probability <em>f</em> that a business belongs to a category a user is interested in: <img src="evaluation_metric.png" alt="evaluation metric" width="400"/> 
 - Distrance function (the rightmost term in the upper equation) has the following behaviour: <img src="distance_function.png" alt="distance function" width="600"/>
 
