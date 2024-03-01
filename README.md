@@ -22,9 +22,6 @@ Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev. I am the primar
 
 # Stage 1. Analytics Engine
 
-
-## Real Hadoop System.
-
 ### Get Yelp Data
 	0.1. Download data (https://www.yelp.com/dataset/documentation/main) and put it into the folder data_yelp
 
@@ -40,21 +37,8 @@ Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev. I am the primar
 		1.5.4. Upload files located in the folder stopwords, the DVD, into the directory "cloudera".
 
 ### Analysis
-	2.1. Run the command: spark-shell
+	2.1. Run the command: spark-shell (e.g., ./spark-shell --driver-memory 1536m --executor-memory 1536m)
 	2.2. Copy and paste commands from the file Analysis.scala one by one if necessary
-
-### Copy the analyzed file from CDH5 to your system.
-
-## Physical Cores of the CPU are used as nodes of the cluster
-
-0. Install JAVA.
-1. Download Spark.
-2. Extract files.
-3. Go to the directory bin.
-4. Run in your terminal: export  _JAVA_OPTIONS: -Xmx4096m
-5. Run in your terminal: ./spark-shell --driver-memory 1536m --executor-memory 1536m
-6. Copy and paste commands from the file Analysis.scala one by one if necessary. Please provide appropriate paths for the required files.
-7. The analyzed file will be saved as soon as the last command will be executed.
 
 
 # Stage 2. Application
@@ -73,6 +57,6 @@ Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev. I am the primar
 	1.1. Command: mongoimport --db yelp --collection health --drop --file "/pathToFile/health.json". The analysed file from the stage 1.
 
 ## Running the application
-	2.1. Extract "Anwendung.zip" and import the project "yelp".
-	2.2. Run as Java Application.
+	2.1. Extract "Anwendung.zip".
+	2.2. Run as Java application.
 	2.3. Follow the instructions.
