@@ -1,5 +1,7 @@
 The project was done in 2016.
+
 Toolstack: Hadoop, MongoDB, Apache Spark, Scala, Java, Eclipse, Maven.
+
 Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev. I am the primary contributor.
 
 # Idea:
