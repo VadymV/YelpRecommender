@@ -1,6 +1,4 @@
-One of my first ML Projects. It was done in 2016.
-It is also a very peculiar project because the use of a local hadoop cluster was the requirement.
-See 'paper.pdf' for more information (sorry, only in German). Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev.
+The project was done in 2016 runs on a Hadoop cluster.
 
 # Idea:
 - Recommend the best business to a user (restaurant, health accommodation or shopping location).
