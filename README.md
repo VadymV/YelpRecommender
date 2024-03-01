@@ -1,4 +1,4 @@
-The project was done in 2016 runs on a Hadoop cluster.
+The project was done in 2016 and runs on a Hadoop cluster.
 
 # Idea:
 - Recommend the best business to a user (restaurant, health accommodation or shopping location).
