@@ -1,4 +1,6 @@
-The project was done in 2016 and runs on a Hadoop cluster.
+The project was done in 2016.
+Toolstack: Hadoop, MongoDB, Apache Spark, Scala, Java, Eclipse, Maven.
+Done in collaboration with Kai Robin Sachse and Evgeni Nikolaev. I am the primary contributor.
 
 # Idea:
 - Recommend the best business to a user (restaurant, health accommodation or shopping location).
